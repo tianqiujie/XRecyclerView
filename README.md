@@ -1,3 +1,5 @@
+[![](https://www.jitpack.io/v/tianqiujie/XRecyclerView.svg)](https://www.jitpack.io/#tianqiujie/XRecyclerView)
+
 # XRecyclerView
 a RecyclerView that implements pullrefresh , loadingmore and header featrues.you can use it like a standard RecyclerView.
 you don't need to implement a special adapter .qq 群478803619
