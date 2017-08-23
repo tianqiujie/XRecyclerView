@@ -14,7 +14,7 @@ import com.jcodecraeer.xrecyclerview.progressindicator.AVLoadingIndicatorView;
 
 public class LoadingMoreFooter extends LinearLayout {
 
-    private SimpleViewSwitcher progressCon;
+    private XRSimpleViewSwitcher progressCon;
     public final static int STATE_LOADING = 0;
     public final static int STATE_COMPLETE = 1;
     public final static int STATE_NOMORE = 2;
@@ -53,7 +53,7 @@ public class LoadingMoreFooter extends LinearLayout {
         setGravity(Gravity.CENTER);
         setLayoutParams(new RecyclerView.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        progressCon = new SimpleViewSwitcher(getContext());
+        progressCon = new XRSimpleViewSwitcher(getContext());
         progressCon.setLayoutParams(new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
